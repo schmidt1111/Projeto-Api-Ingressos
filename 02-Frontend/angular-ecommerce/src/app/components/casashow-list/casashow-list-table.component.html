@@ -1,0 +1,27 @@
+
+<table class="table">
+    <thead class="thead-dark">
+            <tr>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Endereço</th>
+                <th>Telefone</th>
+                <th>CEP</th>
+                <th>Cidade</th>
+                <th>Estado</th>
+            </tr>
+    </thead>
+    <tbody >
+        <tr *ngFor="let tempCasashow of casashow">
+            <td class="align-middle">{{ tempCasashow.id }}</td>
+            <td class="align-middle">{{ tempCasashow.nome }}</td>
+            <td class="align-middle">{{ tempCasashow.endereco }}</td>
+            <td class="align-middle">{{ tempCasashow.telefone }}</td>
+            <td class="align-middle">{{ tempCasashow.cep }}</td>
+            <td class="align-middle">{{ tempCasashow.cidade }}</td>
+            <td class="align-middle">{{ tempCasashow.estado }}</td>
+        </tr>
+    </tbody>
+</table>
+
+
